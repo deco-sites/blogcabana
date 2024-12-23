@@ -3,8 +3,8 @@
   "navigation": {
     "links": [
       {
-        "label": "Performance",
-        "url": "/performance"
+        "url": "https://www.cabanadodesenvolvimento.com.br",
+        "label": "A Loja"
       },
       {
         "label": "Culture",
@@ -16,5 +16,8 @@
       }
     ],
     "buttons": []
+  },
+  "logo": {
+    "src": "https://data.decoassets.com/blogcabana/c866abbd-da3a-4c73-8f79-9ebb2e4cf06f/Logotipo-Cabana-Alternativo-2---Salmao.png"
   }
 }
