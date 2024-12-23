@@ -99,11 +99,11 @@ export default function Footer({
     { label: "Cookies Settings", href: "/" },
   ],
   social = [
-    { network: "Facebook", href: "" },
-    { network: "Instagram", href: "" },
-    { network: "X - Twitter", href: "" },
-    { network: "Linkedin", href: "" },
-    { network: "Youtube", href: "" },
+    // { network: "Facebook", href: "" },
+    { network: "Instagram", href: "https://www.instagram.com/cabanadodesenvolvimento/?utm_source=blog" },
+    // { network: "X - Twitter", href: "" },
+    // { network: "Linkedin", href: "" },
+    // { network: "Youtube", href: "" },
   ],
 }: Props) {
   return (
@@ -113,8 +113,8 @@ export default function Footer({
           <div>
             <Image
               src={logo.src || ""}
-              width={100}
-              height={28}
+              width={200}
+              height={145}
               alt={logo.alt}
             />
           </div>

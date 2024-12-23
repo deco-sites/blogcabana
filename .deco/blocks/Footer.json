@@ -1,3 +1,32 @@
 {
-  "__resolveType": "site/sections/Footer.tsx"
+  "__resolveType": "site/sections/Footer.tsx",
+  "links": [
+    {
+      "items": [
+        {
+          "label": "Home",
+          "href": "/"
+        },
+        {
+          "label": "Sobre Nós",
+          "href": "/about"
+        },
+        {
+          "href": "/products",
+          "label": "Produtos"
+        },
+        {
+          "label": "Contato",
+          "href": "/contact"
+        }
+      ],
+      "title": "Quick Links"
+    }
+  ],
+  "bottomLinks": [],
+  "social": [],
+  "subscribe": {},
+  "logo": {
+    "src": "https://data.decoassets.com/blogcabana/723a5fa8-da6a-483f-b0c6-5a8c23b1c155/Logotipo-Cabana-Principal---Vermelho.png"
+  }
 }
