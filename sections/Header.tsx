@@ -67,14 +67,14 @@ export default function Haader({
 }: Nav) {
   return (
     <nav class="container mx-auto lg:px-0 px-4">
-      <div class="flex gap-8 items-center justify-between py-4">
+      <div class="flex gap-8 items-center justify-between h-[80px]">
         <a href="/">
-          <Image src={logo.src || ""} width={100} height={28} alt={logo.alt} />
+          <Image src={logo.src || ""} width={100} height={80} alt={logo.alt} />
         </a>
 
         <label
           class="cursor-pointer lg:hidden pt-6 relative z-40"
-          for="menu-mobile"
+          htmlFor="menu-mobile"
         >
           <input class="hidden peer" type="checkbox" id="menu-mobile" />
           {lineStyles.map((style, index) => (
